@@ -6,7 +6,7 @@ const Users = () => {
     // receive the data
     const users = useLoaderData();
    
-    console.log(users);
+    // console.log(users);
     return (
         <div>
             <h3>Users Data:{users.length}</h3>
