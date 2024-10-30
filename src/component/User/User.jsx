@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const User = ({user}) => {
@@ -14,6 +15,10 @@ const User = ({user}) => {
             <h3>{name}</h3>
             <h4>{phone}</h4>
             <h5>{email}</h5>
+            {/* <Link to={`/user/${id}`}>Show Me</Link> */}
+            <Link to={`/user/${id}`}>
+            <button>Details</button>
+            </Link>
         </div>
     );
 };
